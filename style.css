@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
 :root {
     --very-dark-magenta: hsl(300, 43%, 22%);
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: 'Spartan', sans-serif;
+    font-family: "Spartan", sans-serif;
     font-size: 15px;
     overflow: hidden;
 }
@@ -130,6 +130,21 @@ h3 {
 
 .mt-40 {
     margin-top: 40px;
+}
+
+.bg-pattern {
+    position: absolute;
+    width: 50%;
+}
+
+.bg-pattern.bottom {
+    bottom: 0;
+    right: 0;
+}
+
+.bg-pattern.top {
+    top: 0;
+    left: 0;
 }
 
 @media (max-width: 1079px) {
